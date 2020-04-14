@@ -1,7 +1,7 @@
 FROM python:3.7
 
 WORKDIR /service
-COPY ./main.py /service
+COPY ./converter /service
 
 EXPOSE 8000
 

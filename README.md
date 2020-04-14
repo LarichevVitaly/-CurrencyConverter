@@ -6,7 +6,7 @@ docker build -t valute/service .
 ```
 ## Запуск сервиса
 ```
-docker run -it valute/service
+docker run -it -p 8000:8000 valute/service
 ```
 После запуска сервиса доступ к нему осуществляется через 8000 порт.
 
